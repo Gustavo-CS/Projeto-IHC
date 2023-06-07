@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 33px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textos {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.off-logo {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 600px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:scale-down;
+}
+
+/*.texto-imagem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 10px;
+}*/
+
+.texto-imagem{
+    display: flex;
+    padding-bottom: 15px;
+    align-content: space-between;
+}
+
+/*.corno-dividido {
+    display: grid;
+}*/
+
+.cornos3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+body {
+  margin: 0; /* Removido o margin do body */
+}
+
+#menu-h {
+  padding-top: 0; /* Removido o padding-top do #menu-h */
+}
+
+#logo {
+  display: inline-block;
+  max-width: 150px;
+  max-height: 200px;
+}
+
+#logo img {
+  max-width: 100px;
+  max-height: 200px;
+  vertical-align: middle;
+}
+
+#menu-h ul {
+  list-style: none;
+  margin: 0; /* Adicionado o margin: 0 para remover as margens */
+  padding: 0;
+  background-color: #2B3252;
+}
+
+#menu-h ul li {
+  display: inline-block;
+}
+
+#menu-h ul li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 25px;
+  transition: background .20s;
+}
+
+#menu-h ul li a:hover {
+  background-color:  rgb(78, 105, 128);
+}
+
